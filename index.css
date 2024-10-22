@@ -1,0 +1,1183 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ header .title h2{
+  margin-left: 15px; 
+  color: #062a60;
+   font-size: 26px
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.header-btn button {
+  cursor: pointer;
+    background-color: #062a60;
+    border: 2px solid #062a60;
+    color: white;
+    padding: 16px 18px 16px 18px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 20px;
+}
+ section .bgimg {
+  margin-top: 20px;
+    background: url(./images/bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+section .bgimg2 {
+    background: url(./images/bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    background : linear-gradient(270.07deg, rgba(6, 42, 96, 0) 0.07%, #062A60 99.96%);
+}
+section .bgimg .bgcontent {
+   padding-left: 120px;
+   padding-top: 50px;
+    line-height: 68px;
+    width: 740px;
+    height: 640px;
+    color: white;
+}
+section .bgimg .bgcontent h1 {
+  width: 740px;
+   font-size: 50px;
+    text-transform: uppercase;
+}
+section .bgimg .bgcontent p {
+    font-size: 15px;
+}
+section .bgimg .bttn1 {
+    background-color: #062a60 ;
+    color: white;
+    border: 2px solid #062a60;
+    
+}
+section .bgimg button {
+    padding: 16px 16px 16px 16px;
+    border: 2px solid white;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+section .section2 {
+   width: 100%;
+    display: flex;
+    background-color: #edf0f7;
+    gap: 30px;
+    justify-content: center;
+    
+}
+section .section2 .card:hover  {
+     color: white;
+     background-color: #062a60;
+}
+section .section2 .card {
+  cursor: pointer;
+    background-color: white;
+    box-sizing: border-box;
+    height: 460px;
+    width: 360px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid orange;
+    padding: 40px;
+    font-size: 17px;
+    transition: background-color 1.5s ease;
+}
+section .section2 .card h2 {
+  font-size: 18px;
+    padding-top: 15px;
+}
+section .section2 .card p {
+    color: grey;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 23px;
+}
+section .section3 {
+  width: 100%;
+  height: 550px;
+  padding-top: 150px;
+    justify-content:center;
+    gap: 74px;
+   background-color: #edf0f7;
+    display: flex;
+}
+section .section3 .aside {
+    width: 530px;
+    height: 400px;
+}
+section .section3 .aside p {
+font-size: 16px;
+line-height: 23px;
+padding-top: 20px;
+color: grey;
+}
+section .section3 .aside h4 {
+  font-weight: 1500;
+  color: #062A60;
+}
+section .section3 .aside h1 {
+  font-size: 38px;
+  padding-top: 20px;
+  color: #062A60;
+}
+.section4 {
+    background-color: #062a60;
+    width: 100%;
+    height: 1300px;
+}
+.section4 .sec-4 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 120px;
+  padding-bottom: 80px;
+}
+.section4 .secc-4 {
+  color: white;
+  padding-left: 120px;
+  padding-bottom: 70px;
+}
+.section4 .secc-4 h1 {
+  padding-top: 100px;
+  font-size: 42px;
+  margin-bottom: 20px
+}
+.section4 h1 {
+  font-size: 42px;
+  margin-bottom: 20px
+}
+.section4 p {
+  font-size: 18px;
+}
+.section4 .company {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.section4 .cts {
+    background: url(./images/cognizant-logo.png);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 430px;
+    height: 350px;
+    transition: transform 0.5s;
+}
+.section4 .cts-content h3 , .section4 .linkedin-content h3, .nau-content h3, .in-content h3 {
+  padding-left: 30px;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+.section4 .tcs-content .tcs-btn {
+  border-radius: 30px;
+  padding-top: 12px;
+    padding-bottom: 14px;
+    margin-left: 30px;
+   padding-left: 14px;
+   padding-right: 14px;
+   background-color: transparent;
+ outline: none;
+   color: white;
+  border: 2px solid white;
+}
+.section4 .cts-content .cts-btn  , .vir-content .vir-btn, .linkedin-content .lin-btn , .nau-content .nau-btn, .in-content .in-btn{
+  border-radius: 30px;
+   padding-top: 14px;
+     padding-bottom: 14px;
+     margin-left: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: transparent;
+  outline: none;
+    color: white;
+   border: 2px solid white;
+}
+.section4 .cts-content p , .section4 .linkedin-content p, .nau-content p , .in-content p  {
+  font-size: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+  line-height: 23px;
+  margin-bottom:20px ;
+}
+.section4 .tcs-content h3, .vir-content h3 {
+  padding-left: 30px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+.section4 .tcs-content p , .vir-content p {
+  font-size: 15px;
+  padding-left: 30px;
+  padding-right: 20px;
+  line-height: 23px;
+  margin-bottom:20px ;
+}
+.section4 .cts-content , .linkedin-content , .nau-content , .in-content {
+  width: 430px;
+  height: 350px;
+  background-color: #062a60;
+    color: white;
+    opacity: 0.9;
+ display: none; 
+  }
+  .section4 .tcs-content , .section4  .vir-content{
+    width: 430px;
+    height: 350px;
+    background-color: #062a60;
+      color: white;
+      opacity: 0.9;
+   display: none;
+  }
+  .section4 .tcs:hover .tcs-content , .virtusa:hover .vir-content  {
+    display: block; 
+  }
+  .section4 .cts:hover {
+    transform: scale(1.03);
+  }
+  .section4 .tcs:hover {
+    transform: scale(1.03);
+  }.section4 .virtusa:hover {
+    transform: scale(1.03); 
+  }
+  .section4 .linkedin:hover {
+    transform: scale(1.03); 
+  }.section4 .indeed:hover {
+    transform: scale(1.03); 
+  }.section4 .naukri:hover {
+    transform: scale(1.03); 
+  }
+  .section4 .cts:hover .cts-content  {
+    display: block; 
+  }
+  .section4 .linkedin:hover .linkedin-content  {
+    display: block; 
+  } 
+  .section4 .naukri:hover .nau-content  {
+    display: block; 
+  } 
+  .section4 .indeed:hover .in-content  {
+    display: block; 
+  }
+
+.section4 .tcs {
+    background: url(./images/tcs.jpeg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 430px;
+    height: 350px;
+    transition: transform 0.9s;
+}
+.section4 .virtusa {
+    background: url(./images/virtusa.jpg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 430px;
+    height: 350px;
+    transition: transform 0.5s;
+}
+.section4 .jobportal {
+  width: 100%;
+  cursor: pointer;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.section4 .linkedin {
+    background: url(./images/linkedin.png);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 430px;
+    height: 350px;
+    transition: transform 0.5s;
+}
+.section4 .naukri {
+    background: url(./images/naukri.jpeg);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 430px;
+    height: 350px;
+    transition: transform 0.5s;
+}
+.section4 .indeed {
+    background: url(./images/indeed.png);
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    width: 430px;
+    height: 350px;
+    transition: transform 0.5s;
+}
+.section5 {
+  width: 100%;
+  height: 2000px;
+  background-color: #ffffff;
+}
+.section5 h1 {
+  text-align: center;
+  font-size: 42px;
+          margin-top: 10px;
+          margin-bottom: 50px;
+}
+.section5 .course {
+  cursor: pointer;
+    display: flex;
+    gap: 20px;
+     justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.section5 .course .course-names {
+    width: 365px;
+    height: 550px;
+    border: 2px solid white;
+    box-shadow: 1px 2px 2px  2px rgba(0, 0, 0, 0.1);
+}
+.section5 .course .course-names .course-content h3 {
+    margin-top:23px;
+    color: #062a60;
+    font-size: 22px;
+    margin-bottom: 23px;
+}
+.section5 .course .course-names .course-content p {
+    color: grey;
+    font-weight: 500;
+}
+.section5 .course .course-names .course-content {
+    text-align: center;
+    line-height: 25px;
+    font-size: 17px;
+}
+.section5 .course .course-names .logo1  {
+     margin-top: -50px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section5 .course .course-names .logo1 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: .2s linear;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section5 .course .course-names:hover .logo1 img {
+  transform: rotate(360deg);
+}
+.section6 .reviews {
+    box-sizing: border-box;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+.section6 {
+  background-color:#edf0f7;
+  width: 100%;
+  height: 800px;
+}
+.section6 .reviews .review-1 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: -50px;
+  }
+.section6 .reviews .review-1 {
+  width: 352px;
+  height: 450px;
+  background-color: white;
+  border-bottom: 2px solid blue;
+  box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+.section6 p {
+  padding-top: 100px;
+    font-size: 17px;
+    color: #062a60;
+    text-align: center;
+}
+.section6 h1 {
+    padding-top: 23px;
+    font-size: 32px;
+   text-align: center;
+margin-bottom: 100px;
+}
+.section6 .reviews .review-1  .students h4 {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.section6 .reviews .review-1  .students h5 {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+    line-height: 25px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.section7 {
+  width: 100%;
+}
+.section7 h3 {
+    margin-top: 10px;
+    color: grey;
+    padding-left: 190px;
+    margin-bottom: 20px;
+}
+.section7 a {
+    padding-left: 190px;
+    color: #062a60;
+}
+.section8 {
+  width: 100%;
+}
+.section8 h3 {
+    margin-top: 100px;
+    color: grey;
+}
+.section8 .com-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 200px;
+    background-color: #edf0f7;
+}
+.section8 .com-logo .immgg {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.section8 .com-logo img {
+    border-radius: 50%;
+}
+.section9 {
+  cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 50px;
+    justify-content: center;
+    height: 450px;
+    background-color: #062a60;
+}
+.section9 .imgandcon {
+    display: flex;
+    align-items: center;
+}
+.section9 .col-1 {
+
+    width: 300px; 
+    height: 260px; 
+}
+.section9 .col-1 p {
+  color: white;
+  font-size: 14px;
+  padding-top: 20px;
+  line-height: 23px;
+}
+.section9 .col-2 {
+    margin-top: 60px;
+    width: 350px; 
+    height: 260px;
+}
+.section9 .col-3 ul li , .col-4 ul li  {
+  font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+     color: white;
+}
+.section9 .col-3 {
+    height: 200px;
+    margin-top: 60px;
+    width: 220px; 
+}
+.section9 .col-4 {
+    margin-top: 60px;
+    width: 200px; 
+    height: 260px;
+    
+}
+.section9 .col-5 p{
+    color: white;
+    width: 250px;
+    height: 260px;
+    
+}
+@media only screen and (max-width: 1024px) {
+    header {
+       width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+      }
+     
+    section .bgimg {
+      width: 100%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: auto;
+    }
+  
+    section .bgimg .bgcontent {
+      padding-top: 60px;
+      padding-left: 20px;
+      line-height: 55px;
+      width: 600px;
+    }
+    section .bgimg .bgcontent h1 {
+      font-size: 39px;
+    }
+    section .bgimg .bgcontent .bttn1 {
+      margin-right: 15px;
+    }
+  
+    section .section2 {
+      background-color: #edf0f7;
+      width: 100%;
+     box-sizing: border-box;
+    }
+  
+    section .section2 .card {
+      width: 310px;
+      height: 500px;
+    }
+    section .section3 { 
+      background-color: #edf0f7;
+      width: 100%;
+      display: flex;
+      padding-top: 100px;
+    }
+    section .section3 .aside {
+      padding-right: 15px;
+    }
+    section .section3 .aside h1 {
+      font-size: 28px;
+    }
+    .section4 {
+      width: 100%;
+      height: auto;
+    }
+    .section4 .sec-4 {
+      padding-left: 20px;
+      padding-bottom: 70px;
+      
+    }
+    .section4 .secc-4 {
+      padding-left: 20px;
+      padding: 20px;
+      padding-bottom: 70px;
+    }
+    .section4 .secc-4 h1 {
+      font-size: 35px;
+    }
+    .section4 .sec-4 h1 {
+      font-size: 35px;
+    }
+    .section4 .cts-content h3 , .section4 .tcs-content h3, .section4 .vir-content h3, .section4 .linkedin-content h3, .nau-content h3, .in-content h3 {
+      padding-left: 30px;
+      font-size: 15px;
+      padding-top: 5px;
+      margin-bottom: 20px;
+    }
+    .section4 .cts-content , .section4 .tcs-content, .section4 .vir-content ,.linkedin-content , .nau-content , .in-content {
+      width: 320px;
+      height: 280px;
+      background-color: #062a60;
+        color: white;
+        opacity: 0.9;
+     display: none; 
+      }
+     .section4 .cts-content .cts-btn  , .vir-content .vir-btn, .linkedin-content .lin-btn , .nau-content .nau-btn, .in-content .in-btn{
+      border-radius: 30px;
+       padding-top: 14px;
+         padding-bottom: 14px;
+         margin-left: 30px;
+        padding-left: 14px;
+        padding-right: 14px;
+        background-color: transparent;
+      outline: none;
+        color: white;
+       border: 2px solid white;
+    }
+    .section4 .cts-content p ,  .section4 .tcs-content p, .section4 .vir-content p, .section4 .linkedin-content p, .nau-content p , .in-content p  {
+      font-size: 12px;
+      padding-left: 30px;
+      padding-right: 20px;
+      line-height: 23px;
+      margin-bottom:20px ;
+    } 
+    .section4 .company .cts , .company .tcs, .company .virtusa {
+      width: 320px;
+      height: 280px;
+    }
+    .section4 .jobportal .naukri , .jobportal .indeed, .jobportal .linkedin {
+      width: 320px;
+      height: 280px;
+    }
+    .section5 h1 {
+      font-size: 36px;
+    }
+    .section5 .course .course-names .img {
+      width: 312px;
+    }
+    .section5 .course .course-names .course-content p { 
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+    }
+    
+    .section5 .course .course-names {
+      width: 312px;
+      height: 520px;
+    }
+    .section6 {
+      margin-top: -50px;
+      height: 900px;
+      width: 100%;
+    }
+    .section6 .reviews {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .section6 .reviews .review-1 {
+      width: 300px;
+      height: 550px;
+    }
+    .section6 .reviews .review-1 .students h5{
+      font-size: 15px;
+     }
+    .section6 .reviews .review-1 .students h4{
+     font-size: 15px;
+    }
+    .section7 h3 { 
+      font-size: 17px;
+      padding-left: 15px;
+    }
+    .section7 a {
+      padding-left: 15px;
+    }
+  .section8 h3 {
+    font-size: 17px;
+  }
+  .section8 .com-logo {
+    width: 100%;
+    margin-left: 0;
+  }
+  .section8 .com-logo .immgg img {
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+  }
+  .section9 {
+    height: 500px;
+    width: 100%;
+    justify-content: flex-start;
+
+  }
+    .section9 .col-1 {
+      width: 250px;
+      height: 260px;
+      padding-left: 15px;
+    }
+  
+    .section9 .col-2 {
+      
+      width: 300px;
+      height: 250px;
+    }
+  
+    .section9 .col-3 {
+      margin-left: -10px;
+      width: 170px;
+    }
+  
+    .section9 .col-4 {
+      margin-left: -20px;
+      width: 160px;
+    }
+    .section9 .col-5 {
+      padding-left: 20px;
+      width: 160px;
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    header {
+      width: 100%;
+      
+      height: 180px;
+      display: flex;
+     flex-wrap: wrap; 
+    }
+    header .title {
+      padding-left: 20px;
+    }
+    header .header-btn {
+      padding-left: 20px;
+    }
+    section .bgimg , .bgimg2 {
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     height: 550px;
+    }
+    section .bgimg .bgcontent {
+      padding-top: 70px;
+    }
+  
+    section .section2 {
+      width: 100%;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    section .section2 .card {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 20px;
+    }
+   section .section3 img {
+    width: 100%;
+    width: 600px;
+    height: 450px;
+   }
+    section .section3 {
+      display: flex;
+      width: 100%;
+      height: auto;
+      flex-wrap: wrap;
+    }
+    section .section3 img {
+      margin-left: -130px;
+    }
+    section .section3 .aside {
+      width: 100%;
+      padding-left: 20px;
+      
+    }
+    section .section3 .aside h1 {
+      font-size: 28px;
+    }
+  .section4 {
+    width: 100%;
+    height:3100px;
+  }
+    .section4  .company {
+      gap: 50px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 100%;
+    }
+    .section4 .cts-content h3 , .section4 .tcs-content h3, .section4 .vir-content h3, .section4 .linkedin-content h3, .nau-content h3, .in-content h3 {
+      padding-left: 30px;
+      font-size: 20px;
+      padding-top: 80px;
+      margin-bottom: 20px;
+    }
+    .section4 .cts-content , .section4 .tcs-content, .section4 .vir-content ,.linkedin-content , .nau-content , .in-content {
+      width: 98.5%;
+      height: 400px;
+      background-color: #062a60;
+        color: white;
+        opacity: 0.9;
+     display: none; 
+      }
+     .section4 .cts-content .cts-btn  , .vir-content .vir-btn, .linkedin-content .lin-btn , .nau-content .nau-btn, .in-content .in-btn{
+      border-radius: 30px;
+        padding-top: 14px;
+         padding-bottom: 14px; 
+          margin-left: 30px;
+        padding-left: 14px; 
+        padding-right: 14px; 
+        background-color: transparent;
+      outline: none;
+        color: white;
+       border: 2px solid white;
+    }
+    .section4 .cts-content p ,  .section4 .tcs-content p, .section4 .vir-content p, .section4 .linkedin-content p, .nau-content p , .in-content p  {
+      font-size: 18px;
+      padding-left: 30px;
+      padding-right: 20px;
+      line-height: 23px;
+      margin-bottom:20px ;
+    } 
+    .section4 .company .cts , .company .tcs, .company .virtusa {
+     
+      width: 100%;
+      height: 400px;
+    }
+    .section4  .jobportal {
+      width: 100%;
+      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .section4 .jobportal .naukri , .jobportal .indeed, .jobportal .linkedin   {
+      width: 100%;
+      height: 400px;
+     }
+     
+    .section4 .secc-4 h1 {
+      font-size: 28px;
+    }
+    .section4 .sec-4 h1 {
+      font-size: 28px;
+    }
+  
+    .section5 h1 {
+      font-size: 28px;
+    }
+    .section5 {
+      
+      width: 100%;
+      height: auto;
+    }
+    .section5 .course .course-names .img {
+      width: 100%;
+      height: 400px;
+    }
+  
+    .section5 .course .course-names .course-content p {
+      
+      font-size: 14px;
+    }
+  
+    .section5 .course {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .section5 .course .course-names {
+      width: 100%;
+      height: 750px;
+    }
+    .section6 {
+      margin-top: 100px;
+      width: 100%;
+      height: 1730px;
+    }
+    .section6 .reviews {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .section6 .reviews .review-1 {
+      width: 100%;
+      height: 400px;
+    }
+  
+    .section6 .reviews .review-1 .students h5 {
+      font-size: 14px;
+    }
+  
+    .section6 .reviews .review-1 .students h4 {
+      font-size: 14px;
+    }
+   .section7 {
+    width: 100%;
+   }
+    .section7 h3 {
+      font-size: 16px;
+      
+    }
+    .section8 .com-logo {
+      width: 100%;
+      margin-left: 0;
+    }
+    .section8 .com-logo .immgg img {
+      width: 60px;
+      height: 60px;
+      margin-left: 0;
+    }
+    .section9 {
+      width: 100%;
+      height: 1200px;  
+    }
+    .section9 .col-1 {
+      width: 100%;
+      height: 100px;
+    }
+    .section9 .col-2 {
+      padding-left: 20px;
+      width: 100%;
+      height:200px;
+    }
+    .section9 .col-3 {
+      padding-left: 20px;
+      margin-left: 0;
+      width: 100%;
+      height:100px 
+       }
+    .section9 .col-4 {
+      padding-left: 20px;
+      margin-left: 0;
+      height:240px; 
+      width: 100%;
+    }
+    .section9 .col-5 {
+      padding-left: 20px;
+      width: 160px;
+      font-size: 14px;
+      padding-top: -30px;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    header {
+      width: 100%;
+      height: 180px;
+      display: flex;
+     flex-wrap: wrap; 
+    }
+    header .title  h2 {
+      font-size: 20px;
+    }
+    header .title {
+      padding-left: 20px;
+    }
+    header .header-btn button {
+      font-size: 14px;
+    }
+    header .header-btn {
+      padding-left: 20px;
+    }
+     section .bgimg , .bgimg2 {
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+     }
+     section .bgimg .bgcontent {
+      padding-left: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 380px;
+      height: 450px;
+      padding-top: 20px;
+     } 
+     section .bgimg .bgcontent button {
+      font-size: 13px;
+      padding-top: 0;
+      padding-bottom: 0;
+     }
+     section .bgimg .bgcontent h1 {
+      font-size: 32px;
+      line-height: 40px;
+     }
+     section .bgimg .bgcontent p {
+      padding-top: 70px;
+     }
+    
+     section .bgimg .bgcontent p {
+      margin-top: -80px;
+      line-height: 25px;
+      font-size: 14px;
+     } 
+     section .section2  {
+      padding-left: 10px;
+      padding-right: 15x;
+     }
+     section .section3 div {
+      padding-left: 140px;
+      width: 500px;
+      height: 300px; 
+
+     }
+     section .section3 img {
+      width: 400px;
+      height: 300px;
+     }
+      section .section3 {
+        display: flex;
+        width: 100%;
+        height:860px;
+        flex-wrap: wrap;
+      }
+      section .section3 .aside {
+        width: 100%;
+        padding-left: 20px;
+      }
+      section .section3 .aside h4 {
+        margin-top: -70px;
+      }
+      section .section3 .aside h1 {
+        font-size: 28px;
+      }
+      .section4 .sec-4 p , .section4 .secc-4 p {
+        font-size: 15px;
+      }
+      .section4 .sec-4 h1 , .section4 .secc-4 h1 {
+        font-size:23px;
+      }
+      .section4 {
+        width: 100%;
+        height:2800px;
+      }
+      .section4  .company {
+        gap: 20px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       width: 100%;
+      }
+      .section4 .cts-content h3 , .section4 .tcs-content h3, .section4 .vir-content h3, .section4 .linkedin-content h3, .nau-content h3, .in-content h3 {
+        padding-left: 30px;
+        font-size: 20px;
+        padding-top: 40px;
+        margin-bottom: 20px;
+      }
+      .section4 .cts-content , .section4 .tcs-content, .section4 .vir-content ,.linkedin-content , .nau-content , .in-content {
+        width: 98.5%;
+        height: 400px;
+        background-color: #062a60;
+          color: white;
+          opacity: 0.9;
+       display: none; 
+        }
+       .section4 .cts-content .cts-btn  , .vir-content .vir-btn, .linkedin-content .lin-btn , .nau-content .nau-btn, .in-content .in-btn{
+        border-radius: 30px;
+          padding-top: 14px;
+           padding-bottom: 14px; 
+            margin-left: 30px;
+          padding-left: 14px; 
+          padding-right: 14px; 
+          background-color: transparent;
+        outline: none;
+          color: white;
+         border: 2px solid white;
+      }
+      .section4 .cts-content p ,  .section4 .tcs-content p, .section4 .vir-content p, .section4 .linkedin-content p, .nau-content p , .in-content p  {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 20px;
+        line-height: 23px;
+        margin-bottom:20px ;
+      } 
+      .section4 .company .cts , .company .tcs, .company .virtusa {
+        width: 100%;
+        height: 350px;
+      }
+      .section4  .jobportal {
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .section4 .jobportal .naukri , .jobportal .indeed, .jobportal .linkedin   {
+        width: 100%;
+        height: 350px;
+       }
+       .section5 .course .course-names .img {
+        width: 100%;
+        height: 200px;
+      }
+      .section5 .course .course-names {
+        width: 100%;
+        height: 550px;
+      }
+      .section6 h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:20px;
+      }
+
+      .section6 .reviews {
+        gap: 80px;
+      }
+      .section7 a {
+        font-size: 14px;
+      }
+      .section8 .com-logo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+    }
+    .section8 .com-logo .immgg {
+      background-color:#edf0f7;
+      height: auto;
+      padding-bottom: 30px;
+      padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        gap: 30px;
+    }
+    .section8 .com-logo .immgg img {
+        width: 150px; 
+        height: 150px; 
+    }
+    .section9 {
+      padding-top: 400px;
+      height: 1560px;
+    }
+    .section9 .col-1 {
+      padding-right: 30px;
+      width: 100%;
+      height: 100px;
+    }
+    .section9 .col-2 {
+      padding-right: 30px;
+      padding-left: 20px;
+      width: 100%;
+      height:200px;
+    }
+    .section9 .col-3 {
+      padding-left: 20px;
+      margin-left: 0;
+      width: 100%;
+      height:100px 
+       }
+    .section9 .col-4 {
+      padding-left: 20px;
+      margin-left: 0;
+      height:240px; 
+      width: 100%;
+    }
+    .section9 .col-5 {
+      padding-left: 20px;
+      width: 160px;
+      font-size: 14px;
+      margin-top: -20px;
+    }
+  }
